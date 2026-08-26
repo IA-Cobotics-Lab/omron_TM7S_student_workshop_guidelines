@@ -51,28 +51,32 @@ After booting, the screen will show you a login screen (*Figure 5*) with a neede
 	<figcaption>Figure 5 — Login Screen</figcaption>
 </figure>
 
-- Example: Username, password prompts and login tips.
+You should now be looking at a screen like the one shown in *Figure 6*.
 
 <figure style="text-align:center">
 	<img src="resources/6-NextScreen.png" alt="6-NextScreen" height="360" />
-	<figcaption>Figure 6 — Next Screen (placeholder)</figcaption>
+	<figcaption>Figure 6 — Tablet after logging in</figcaption>
 </figure>
 
-- Example: Describe the next step or button to press.
+**IMPORTANT: The following steps are very specific so please follow along closely and ask the supervisory staff for any assistance needed.**
+
+The robot is currently in *auto* mode. This means that right now, we cannot safely interact and easily move the robot. Look at *Figures 7/8* and see how on the bar menu (the thin horizontal bar at the top of the screen), the term **Auto** is highlighted compared to the term **T1**. 
+
+If you look at your tablet the same status should be shown. We need to switch the robot to manual mode, where you can safely interact, move and replay motions on the robot arm.
 
 <figure style="text-align:center">
 	<img src="resources/7-M_APress.png" alt="7-M_APress" height="360" />
-	<figcaption>Figure 7 — M/A Press (placeholder)</figcaption>
+	<figcaption>Figure 7 — Status Bar at Top</figcaption>
 </figure>
 
-- Example: Explain manual/auto toggle effects.
+**Before continuing, please move a safe distance away (at least 1.5 meters), from the robot arm for the following steps. See  *Figure 8* below**
 
 <figure style="text-align:center">
 	<img src="resources/8-Overview.png" alt="8-Overview" height="360" />
-	<figcaption>Figure 8 — Overview (placeholder)</figcaption>
+	<figcaption>Figure 8 — Expected Setup for Next Steps</figcaption>
 </figure>
 
-- Example: High-level system overview and labels.
+Once at a safe distance, we will first deactivate the e-stop. Twist the e-stop buton (*Figures 9/10*) until it pops up, thereby ensureing that the robot arm is ready for operation. The e-stop has visualisations to show you the twist direction to use.
 
 <!-- Side-by-side: TwistOverview and Twist 2 -->
 <table>
@@ -80,26 +84,27 @@ After booting, the screen will show you a login screen (*Figure 5*) with a neede
 		<td align="center">
 			<figure style="text-align:center">
 				<img src="resources/9-TwistOverview.png" alt="9-TwistOverview" height="360" />
-				<figcaption>Figure 9 — TwistOverview (placeholder)</figcaption>
+				<figcaption>Figure 9 — Twisting Motion Stage 1</figcaption>
 			</figure>
 		</td>
 		<td align="center">
 			<figure style="text-align:center">
 				<img src="resources/10-Twist2.png" alt="10-Twist2" height="360" />
-				<figcaption>Figure 10 — Twist 2 (placeholder)</figcaption>
+				<figcaption>Figure 10 — Twisting Motion Stage 2</figcaption>
 			</figure>
 		</td>
 	</tr>
 </table>
 
-- Example (for both): Explain the twist axes, directions, and when to use each control.
+After the E-Stop has been disabled, we will now attempt to transition to manual mode and start moving the robot around. As shown in *Figure 11* Tap and hold the M/A button on the screen for a **minimum of 5 seconds**, HOLD UNTIL you hear a beep and the **Auto** indicator in the top menu bar should be flashing.
 
 <figure style="text-align:center">
 	<img src="resources/11-M_A_LaterStep.png" alt="11-M_A_LaterStep" height="360" />
-	<figcaption>Figure 11 — M/A Later Step (placeholder)</figcaption>
+	<figcaption>Figure 11 — Press and Hold M/A</figcaption>
 </figure>
 
-- Example: Notes about this later step and safety checks.
+Now, we need to key in a specific sequence 
+
 
 <figure style="text-align:center">
 	<img src="resources/12PressingPlus.png" alt="12-PressingPlus" height="360" />
