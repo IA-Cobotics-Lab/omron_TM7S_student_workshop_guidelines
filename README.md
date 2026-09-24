@@ -104,7 +104,7 @@ After the E-Stop has been disabled, we will now attempt to transition to manual 
 </figure>
 
 **Note, IMPORTANT. READ HERE CAREFULLY**
-Now, we need to key in a specific sequence, once auto is flashing press the buttons in the order of *+ , - , + , + , -* (*Figures 12/13*). Aftwewards press play (*Figures 14*) and you should see the manual mode active (*Figures 15*).
+Now, we need to key in a specific sequence, once auto is flashing press the buttons in the order of *+ , - , + , + , -* (*Figures 12/13*). Aftwewards tap M/A again followed by play (*Figures 11, followed by 14*) and you should see the manual mode active (*Figures 15*, **see how T1 is now highlighted in the top row**)
 
 <figure style="text-align:center">
 	<img src="resources/12PressingPlus.png" alt="12-PressingPlus" height="360" />
@@ -118,7 +118,7 @@ Now, we need to key in a specific sequence, once auto is flashing press the butt
 
 <figure style="text-align:center">
 	<img src="resources/14-PressingPlay.png" alt="14-PressingPlay" height="360" />
-	<figcaption>Figure 14 — Pressing Play (placeholder)</figcaption>
+	<figcaption>Figure 14 — Pressing Play</figcaption>
 </figure>
 
 <figure style="text-align:center">
@@ -126,37 +126,52 @@ Now, we need to key in a specific sequence, once auto is flashing press the butt
 	<figcaption>Figure 15 — In Manual Mode (placeholder)</figcaption>
 </figure>
 
-## Step 3: Using the Robot in Manual Mode
+**Congratulations! We are now ready to move into operating the robot in simulator view**
 
-<figure style="text-align:center">
-	<img src="resources/16-PressHalfInTablet.png" alt="16-PressHalfInTablet" height="360" />
-	<figcaption>Figure 16 — Press Half In Tablet (placeholder)</figcaption>
-</figure>
+## Step 3: Using the Robot
 
-- Example: Partial-press behaviors and how to interpret them.
+Now we can move the robot in two different ways. The two subsections cover each options.
+
+**But First...**
+
+Move into the simulated view (*Figure 17*) by pressing the simulator view button (*Figure 16*).
 
 <figure style="text-align:center">
 	<img src="resources/17-ViewOfRobotAndSim.png" alt="17-ViewOfRobotAndSim" height="360" />
-	<figcaption>Figure 17 — Robot & Simulator View (placeholder)</figcaption>
+	<figcaption>Figure 17 — Robot & Simulator View</figcaption>
 </figure>
+
+### Step 3.1: Option 1 for Manipulation, Manual Interactive Mode
+
+The easiest way is to simply activate the interactive mode. To operate this is quite simple. As shown in Figure 18, simply press the black button on the manipulator's camera. 
+
+**However, and this is important!!**, you only need to press it halfway in. Pressing this button has two click options. Simply press it halfway before the first click. You will be able to tell if you've done it correctly by simply checking the ring around the robot's TCP. See how in *Figure 18* the ring just below the user pressing the button is bright green? That indicates that you've done this step correctly. 
+
+**Before Proceeding: WHEN USING MANUAL MODEL MOVE THE ROBOT INCREDIBLY SLOWLY**
+
+Assuming every step has been completed, simply hold the robot while the ring is bright green and try to **GENTLY!!** push the robot, It will follow the forces and and directions in which you push it.
+
+<figure style="text-align:center">
+	<img src="resources/19-Hold_ManipulatorForFreeRangeOperation.png" alt="19-Hold_ManipulatorForFreeRangeOperation" height="360" />
+	<figcaption>Figure 18 — Hold manipulator halfway in, and slowly move the robot forward</figcaption>
+</figure>
+
+
 
 - Example: Differences between simulation and real robot views.
 
 <figure style="text-align:center">
 	<img src="resources/18-ViewOfMotionScreen.png" alt="18-ViewOfMotionScreen" height="360" />
-	<figcaption>Figure 18 — Motion Screen (placeholder)</figcaption>
+	<figcaption>Figure 19 — Motion Screen (placeholder)</figcaption>
 </figure>
 
 - Example: Motion parameters to check before running.
 
-<figure style="text-align:center">
-	<img src="resources/19-Hold_ManipulatorForFreeRangeOperation.png" alt="19-Hold_ManipulatorForFreeRangeOperation" height="360" />
-	<figcaption>Figure 19 — Hold Manipulator (placeholder)</figcaption>
-</figure>
+
 
 - Example: Safety reminder for free-range operation.
 
-## Notes on overlaying red circles on images
+<!-- ## Notes on overlaying red circles on images
 
 - Short answer: standard Markdown does not provide a reliable way to draw overlays (like red circles) on top of raster images across all renderers.
 - Recommended: edit/annotate the images in an image editor (Photoshop, GIMP, or an annotator) for permanent, consistent results.
@@ -165,4 +180,4 @@ Now, we need to key in a specific sequence, once auto is flashing press the butt
 
 ---
 
-If you want different image heights, captions, or automatic numbering, tell me which height (px) and I will update the file.
+If you want different image heights, captions, or automatic numbering, tell me which height (px) and I will update the file. -->
