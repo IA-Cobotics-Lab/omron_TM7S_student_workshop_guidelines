@@ -1,6 +1,6 @@
 # Omron TM7S Student Workshop Guide
 
-This guide supports undergraduate students using the Omron TM7S collaborative robot in the RMIT IA-Cobotics Lab.
+This student tutorial explains how to use the Omron TM7S collaborative robot during a supervised workshop in the RMIT IA-Cobotics Lab.
 
 > **Safety first:** Follow the instructions of the supervising staff member at all times. Do not press buttons or move the robot until the guide tells you to do so.
 
@@ -13,19 +13,29 @@ This guide supports undergraduate students using the Omron TM7S collaborative ro
 
 ![Omron TM7S tablet interface](resources/TM7S-Omron-360-0000.webp)
 
+*Omron TM7S collaborative robot and tablet interface.*
+
 ## 1. Start the robot safely
 
 The tablet is attached to the robot and is used to operate it.
 
-1. Make sure the emergency stop is pressed before doing anything else.
+### Press the emergency stop
 
-   ![Press the emergency stop](resources/2-HitEstop.png)
+Make sure the emergency stop is pressed before doing anything else.
 
-2. Press the power button once. The power light will turn on and the tablet will show startup screens.
+![Press the emergency stop](resources/2-HitEstop.png)
 
-   | Press the power button | Startup screen |
-   | --- | --- |
-   | ![Press the power button](resources/3-TurnOnTablet.png) | ![Tablet starting up](resources/4-TabletTurningOn.png) |
+*Figure 1: Press the emergency-stop button before starting the robot.*
+
+### Turn on the robot
+
+Press the power button once. The power light will turn on and the tablet will show startup screens.
+
+| Press the power button | Wait for the startup screen |
+| :---: | :---: |
+| ![Press the robot power button](resources/3-TurnOnTablet.png) | ![Tablet showing a startup screen](resources/4-TabletTurningOn.png) |
+
+*Figures 2 and 3: Turn on the robot and wait for the tablet to finish starting.*
 
 ## 2. Log in and select manual mode
 
@@ -37,9 +47,13 @@ After startup, the tablet displays the login screen. Ask the supervising staff m
 
 ![Tablet login screen](resources/5-LoginScreenAsk.png)
 
+*Figure 4: Log in using the details supplied by the supervising staff member.*
+
 After logging in, the tablet should look similar to this:
 
 ![Tablet after login](resources/6-NextScreen.png)
+
+*Figure 5: Tablet interface after a successful login.*
 
 ### Switch from Auto to T1
 
@@ -47,17 +61,23 @@ The robot starts in **Auto** mode. Do not interact with or move the robot while 
 
 1. Move at least **1.5 metres away** from the robot before changing its mode.
 
-   ![Safe distance from the robot](resources/8-Overview.png)
+![Safe distance from the robot](resources/8-Overview.png)
+
+*Figure 6: Keep a safe distance while changing the operating mode.*
 
 2. Twist the emergency-stop button until it pops up. The markings on the button show the direction to turn.
 
-   | Twist the emergency stop | Emergency stop released |
-   | --- | --- |
-   | ![Twist the emergency stop](resources/9-TwistOverview.png) | ![Release the emergency stop](resources/10-Twist2.png) |
+| Twist the emergency stop | Emergency stop released |
+| :---: | :---: |
+| ![Twist the emergency stop](resources/9-TwistOverview.png) | ![Release the emergency stop](resources/10-Twist2.png) |
+
+*Figures 7 and 8: Twist and release the emergency-stop button.*
 
 3. Touch and hold **M/A** for at least five seconds. Hold it until you hear a beep and **Auto** begins flashing.
 
-   ![Touch and hold M/A](resources/11-M_A_LaterStep.png)
+![Touch and hold M/A](resources/11-M_A_LaterStep.png)
+
+*Figure 9: Touch and hold the M/A button.*
 
 4. Enter the following button sequence:
 
@@ -65,9 +85,11 @@ The robot starts in **Auto** mode. Do not interact with or move the robot while 
 
 5. Touch **M/A** again, then press **Play**. Confirm that **T1** is highlighted in the status bar.
 
-   | Press `+` | Press `-` | Press Play | T1 selected |
-   | --- | --- | --- | --- |
-   | ![Press plus](resources/12PressingPlus.png) | ![Press minus](resources/13-PressingNegative.png) | ![Press Play](resources/14-PressingPlay.png) | ![Manual mode active](resources/15-InManual.png) |
+| Press `+` | Press `-` | Press Play | Confirm T1 is selected |
+| :---: | :---: | :---: | :---: |
+| ![Press plus](resources/12PressingPlus.png) | ![Press minus](resources/13-PressingNegative.png) | ![Press Play](resources/14-PressingPlay.png) | ![Manual mode active](resources/15-InManual.png) |
+
+*Figures 10 to 13: Enter the mode-change sequence, press Play, and confirm that T1 is active.*
 
 The robot is now ready for manual operation.
 
@@ -79,6 +101,8 @@ Press the simulator-view button to display the robot and its controls.
 
 ![Robot and simulator view](resources/17-ViewOfRobotAndSim.png)
 
+*Figure 14: Open the robot and simulator view.*
+
 ### Option A: interactive manual movement
 
 1. Press the black button on the robot manipulator **halfway**, stopping before the second click.
@@ -88,6 +112,8 @@ Press the simulator-view button to display the robot and its controls.
 > **Move very slowly.** Keep control of the robot at all times and stop immediately if anything looks unsafe.
 
 ![Hold the manipulator button halfway and move slowly](resources/19-Hold_ManipulatorForFreeRangeOperation.png)
+
+*Figure 15: Hold the manipulator button halfway while moving the robot slowly.*
 
 ### Option B: joint and Cartesian controls
 
@@ -101,9 +127,11 @@ The simulator provides two groups of movement controls:
 3. Press the tablet-side button halfway, as in Option A.
 4. Hold `+` or `-` and observe the robot's movement.
 
-![Cartesian and joint motion controls](resources/18-ViewOfMotionScreen.png)
+| Cartesian and joint controls | Enable movement |
+| :---: | :---: |
+| ![Cartesian and joint motion controls](resources/18-ViewOfMotionScreen.png) | ![Press the tablet-side button halfway](resources/16-PressHalfInTablet.png) |
 
-![Press the tablet-side button halfway](resources/16-PressHalfInTablet.png)
+*Figures 16 and 17: Select a motion control, then press the tablet-side button halfway.*
 
 Discuss these questions with your group:
 
@@ -118,22 +146,17 @@ In this exercise you will create a project, record robot poses, connect the pose
 ### Create a project
 
 1. Open the project menu from the tablet.
-
-   | Open the project menu | Select the project view |
-   | --- | --- |
-   | ![Open the project menu](resources/IMG_1215.JPEG) | ![Select the project view](resources/IMG_1216.JPEG) |
-
 2. Confirm that the project workspace is open.
-
-   ![Project workspace](resources/IMG_1217.JPEG)
-
 3. Select **File > New**.
-
-   ![Create a new project](resources/IMG_1218.JPEG)
-
 4. Enter a name for the project and confirm it.
 
-   ![Name the project](resources/IMG_1219.JPEG)
+| 1. Open the project menu | 2. Select the project view |
+| :---: | :---: |
+| ![Open the project menu](resources/IMG_1215.JPEG) | ![Select the project view](resources/IMG_1216.JPEG) |
+| **3. Open the project workspace** | **4. Select File, then New** |
+| ![Project workspace](resources/IMG_1217.JPEG) | ![Create a new project](resources/IMG_1218.JPEG) |
+
+*Figures 18 to 21: Open the project workspace and create a new project.*
 
 ### Record poses
 
@@ -142,25 +165,30 @@ In this exercise you will create a project, record robot poses, connect the pose
 3. Move the robot to the next pose and record it again.
 4. Repeat until you have at least two poses.
 
-   ![Example project view](resources/IMG_1220.JPEG)
+| Name the project | Project ready for poses | Record a waypoint |
+| :---: | :---: | :---: |
+| ![Name the project](resources/IMG_1219.JPEG) | ![Example project view](resources/IMG_1220.JPEG) | ![Record a waypoint](resources/Screenshot%202026-09-24%20132950.png) |
 
-The later workshop photos show the pose and waypoint workflow:
+*Figures 22 to 24: Name the project, open it, and use the record control to add each waypoint.*
 
-![Example pose](resources/IMG_1226.JPEG)
+Use a different safe robot position for each pose.
 
-![Second example pose](resources/IMG_1230.JPEG)
+| First example pose | Second example pose |
+| :---: | :---: |
+| ![First example robot pose](resources/IMG_1226.JPEG) | ![Second example robot pose](resources/IMG_1230.JPEG) |
 
-![Record a waypoint](resources/Screenshot%202026-09-24%20132950.png)
+*Figures 25 and 26: Two example robot poses.*
 
 ### Connect and run the routine
 
 1. Connect the recorded points in order to make one continuous routine.
-
-   ![Connect the recorded points](resources/IMG_1223.JPEG)
-
 2. Drag the final connection back into the loop as shown in the example.
 
-   ![Close the routine loop](resources/IMG_1224.JPEG)
+| Connect the points in order | Complete the routine |
+| :---: | :---: |
+| ![Connect the recorded points](resources/IMG_1223.JPEG) | ![Close the routine loop](resources/IMG_1224.JPEG) |
+
+*Figures 27 and 28: Connect the recorded points and complete the routine.*
 
 3. Press the tablet-side button halfway to enable operation.
 4. Press **Play** and watch the robot replay the routine.
