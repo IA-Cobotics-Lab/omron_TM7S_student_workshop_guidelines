@@ -40,7 +40,7 @@ Assuming the e-stop is enabled, we can now safely turn on the robot. Push the po
 	</tr>
 </table>
 
-## Step 2: Using the Robot
+## Step 2: Setting Up Initial Settings
 
 After booting, the screen will show you a login screen (*Figure 5*) with a needed username and password. Please refer to the staff member present to access the username and password to proceed.
 
@@ -103,36 +103,30 @@ After the E-Stop has been disabled, we will now attempt to transition to manual 
 	<figcaption>Figure 11 — Press and Hold M/A</figcaption>
 </figure>
 
-Now, we need to key in a specific sequence 
-
+**Note, IMPORTANT. READ HERE CAREFULLY**
+Now, we need to key in a specific sequence, once auto is flashing press the buttons in the order of *+ , - , + , + , -* (*Figures 12/13*). Aftwewards press play (*Figures 14*) and you should see the manual mode active (*Figures 15*).
 
 <figure style="text-align:center">
 	<img src="resources/12PressingPlus.png" alt="12-PressingPlus" height="360" />
-	<figcaption>Figure 12 — Pressing Plus (placeholder)</figcaption>
+	<figcaption>Figure 12 — Pressing Plus</figcaption>
 </figure>
-
-- Example: Button behavior and expected result.
 
 <figure style="text-align:center">
 	<img src="resources/13-PressingNegative.png" alt="13-PressingNegative" height="360" />
-	<figcaption>Figure 13 — Pressing Negative (placeholder)</figcaption>
+	<figcaption>Figure 13 — Pressing Negative</figcaption>
 </figure>
-
-- Example: When to use negative adjustments.
 
 <figure style="text-align:center">
 	<img src="resources/14-PressingPlay.png" alt="14-PressingPlay" height="360" />
 	<figcaption>Figure 14 — Pressing Play (placeholder)</figcaption>
 </figure>
 
-- Example: Starting program/run sequence notes.
-
 <figure style="text-align:center">
 	<img src="resources/15-InManual.png" alt="15-InManual" height="360" />
 	<figcaption>Figure 15 — In Manual Mode (placeholder)</figcaption>
 </figure>
 
-- Example: Describe manual mode limits or warnings.
+## Step 3: Using the Robot in Manual Mode
 
 <figure style="text-align:center">
 	<img src="resources/16-PressHalfInTablet.png" alt="16-PressHalfInTablet" height="360" />
